@@ -1,7 +1,7 @@
 # MIRA GDPR Peer Audit — Debrief and Remediation Plan
 
 **Participants:** Paola Hintze (auditor) and Maria Cavali (builder)  
-**Status:** Lawful-basis and DPIA comparisons completed from Maria's written response. Gap-list response and joint note remain pending.
+**Status:** Lawful-basis, DPIA, and gap-list comparisons completed. Joint closing note awaits Maria's approval.
 
 ## Phase 5 — Debrief record
 
@@ -27,14 +27,14 @@ On the DPIA, Maria concluded that one is strongly recommended before launch, whi
 - **Maria's self-audit conclusion:** A DPIA is strongly recommended before launch, but strict Article 35 necessity is TBD pending scale, geography, model behaviour, and supervisory-authority guidance.
 - **Agreed conclusion or precise unresolved ambiguity:** We agree on the relevant risk indicators and on completing the DPIA before launch as the practical action. The remaining legal-characterisation difference is whether Article 35 already makes it mandatory: Paola's audit says the combined indicators make high risk sufficiently likely; Maria reserves that conclusion until the missing deployment facts and applicable authority list are confirmed. This distinction does not change the operational launch condition: the DPIA should be completed before production personal-data processing.
 
-### 5. Compare gap lists — pending Maria
+### 5. Compare gap lists
 
 | Comparison | Result |
 |---|---|
 | External audit's top gaps | Lawful-basis/Article 9 map; DPIA; DPAs/vendor governance; transfers; minimisation; notice/retention/rights operations |
-| Builder self-audit gaps not caught externally | Pending Maria's direct comparison |
-| External gaps the builder had not identified | Pending Maria's direct comparison |
-| Factual corrections to the external audit | Maria clarified her selected bases and DPIA position; no architecture correction was supplied yet |
+| Builder self-audit gaps not caught externally | The builder audit gave more detail on third-party image permissions, access-export friction and provenance, rectification of inferred attributes, security-log lawful basis, cookies/ePrivacy, possible vendor independent-controller roles, and limited Data Act relevance. |
+| External gaps the builder had not identified | The external audit applied a firmer production boundary, questioned whether optional images satisfy contractual necessity, treated exact V4 birth details as a minimisation issue because they do not drive the current output, and treated missing Article 28 evidence as blocking unless verified. |
+| Factual corrections to the external audit | Maria clarified her selected bases and DPIA position. Her audit expanded the hypothetical processing inventory but supplied no contradictory architecture facts. |
 
 ### 6. Joint closing note — draft for agreement
 
@@ -52,7 +52,23 @@ Send Maria these external findings for direct comparison:
 4. **International transfers — Significant.** Vendor regions and Chapter V mechanisms were not documented; DPF/adequacy or SCCs plus a transfer impact assessment must be verified as applicable.
 5. **Transparency, retention, deletion, and rights operations — Significant.** The brief did not evidence a complete AI privacy notice, retention schedule, deletion propagation, or tested data-subject-rights workflow.
 
-Maria's accept/challenge/already-addressed response remains pending.
+Maria's accept/challenge/already-addressed response to the external findings remains pending.
+
+## Peer review of Maria's recommendation memo
+
+| Criterion | Score 1–3 | Comment |
+| --- | ---: | --- |
+| Clear bottom-line recommendation | 3 | The **GO WITH CONDITIONS** recommendation is explicit and consistently supported. The memo clearly explains that MIRA may continue toward launch only after the missing privacy, vendor, transfer, retention, and rights controls are evidenced. |
+| Lawful basis selection is justified | 2 | Contract under Article 6(1)(b) is well justified for the core personalised creative-direction service, and legitimate interests for proportionate security logging is appropriately limited. However, the contract basis for optional reference images and exact birth details still depends on demonstrating objective necessity. User choice alone does not establish contractual necessity, so consent or removal/minimisation may be more appropriate if those features are genuinely optional. |
+| Top actions are specific and sequenced | 3 | The three actions are practical and well ordered: complete the processing blueprint and privacy notice, close vendor and international-transfer gaps, and then conduct and operationalise the DPIA with access and deletion tests. Each action identifies concrete evidence and implementation work. |
+| Residual risks are named honestly | 3 | The memo clearly acknowledges incidental sensitive information, unwanted AI inferences, imperfect deletion across subprocessors and backups, and changing transfer or subprocessor arrangements. It does not overstate compliance or pretend unresolved information is already known. |
+| Law stacking is addressed (AI Act / ePrivacy) | 3 | The memo correctly distinguishes GDPR from the AI Act transparency assessment and also considers ePrivacy rules for cookies, SDKs, and device access. The Data Act is discussed conservatively without claiming it applies merely because MIRA uses cloud infrastructure. |
+
+**Total: 14/15**
+
+### Client response
+
+I accept the overall recommendation and the three proposed actions. I would clarify that **GO WITH CONDITIONS** should not be interpreted as permission to launch with EU personal data before the processor agreements, transfer safeguards, DPIA, retention rules, privacy notice, and rights workflows are completed and evidenced; development can continue with synthetic or irreversibly anonymised data in the meantime. I also ask the team to reconsider Article 6(1)(b) for optional reference images and exact birth details unless their necessity for the contracted service can be demonstrated, using minimisation or a separate valid basis where appropriate.
 
 ## Stretch — Remediation plan for the DPIA finding
 
