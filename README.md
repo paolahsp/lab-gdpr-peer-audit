@@ -1,23 +1,32 @@
-# Audit your teammate's project — GDPR lens
+# MIRA GDPR Peer Audit
 
-**Track:** Module 7 — GDPR · **When:** Week 7, Day 3 · **Status:** Required
+**Auditor:** Paola Hintze  
+**Teammate:** Maria Cavali (`mariacavali`)  
+**Project audited:** MIRA V4, with V3 shared-platform context  
+**Status:** Complete
 
-This repository contains everything you need for this lab.
+This repository contains only the materials for the Module 7 GDPR peer-audit lab.
 
-## Files
+## Lesson alignment
 
-- [`instructions.md`](./instructions.md) — the lab instructions
-- [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
+The work demonstrates an independent GDPR review of a system I did not build, a structured findings report, and a six-step debrief designed to compare the external conclusions with the builder's self-audit.
 
-## How to complete this lab
+## Kick-off — what we exchanged
 
-1. **Fork** this repository.
-2. Do the work described in `instructions.md`, committing to your fork.
-3. Open a **pull request** back into this repository.
-4. You'll receive **AI feedback** on your PR based on `rubric.md`. Address any blocking feedback and push updates to the same PR.
+Before the audit, Maria provided only MIRA's [system brief](https://github.com/mariacavali/MIRA-asignment-/blob/main/MIRA_SYSTEM_BRIEF_FOR_PEER_AUDIT.md), [data inventory](https://github.com/mariacavali/MIRA-asignment-/blob/main/docs/MIRA_AI_AND_DATA_INVENTORY.md), and [architecture notes](https://github.com/mariacavali/MIRA-asignment-/blob/main/docs/MIRA_ARCHITECTURE_FOR_AUDIT.md). She did **not** provide her lawful-basis selections, DPIA conclusion, compliance memo, or gap findings.
 
-## Submission hygiene
+## Ground rules followed
 
-- Keep this repository scoped to this lab only — no unrelated projects or personal files.
-- Use clear, descriptive filenames.
-- Remove secrets, API keys, and tokens before committing.
+The audit conclusions were formed independently. Ambiguities were logged in writing with provisional assumptions, and conclusions were not discussed with Maria before the debrief.
+
+## Submission file map
+
+- [`mira_gdpr_peer_audit_evidence_log.md`](./mira_gdpr_peer_audit_evidence_log.md) — Phase 1 annotations, Phase 2 personal-data and role maps, Phase 3 clarifying questions, and legal sources.
+- [`mira_gdpr_peer_audit_report.md`](./mira_gdpr_peer_audit_report.md) — Phase 4 two-page-equivalent audit report, findings, checklist, recommendation, and disclaimer.
+- [`mira_gdpr_peer_audit_debrief_and_remediation.md`](./mira_gdpr_peer_audit_debrief_and_remediation.md) — Phase 5 six-step debrief record, Maria's recommendation-memo rubric and client response, approved joint note, and Stretch remediation plan.
+- [`instructions.md`](./instructions.md) — lab instructions.
+- [`rubric.md`](./rubric.md) — grading criteria.
+
+## Completion note
+
+The independent audit, recommendation-memo peer review, six-step debrief, finding-by-finding builder response, and jointly approved closing note are complete. Maria accepted all five external findings with documented qualifications concerning Article 35 and the evidence status of existing controls.
