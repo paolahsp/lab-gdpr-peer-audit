@@ -1,7 +1,7 @@
 # MIRA GDPR Peer Audit — Debrief and Remediation Plan
 
 **Participants:** Paola Hintze (auditor) and Maria Cavali (builder)  
-**Status:** Lawful-basis, DPIA, and gap-list comparisons completed. Joint closing note awaits Maria's approval.
+**Status:** Complete. Maria accepted all five findings with qualifications and approved the joint closing note.
 
 ## Phase 5 — Debrief record
 
@@ -36,15 +36,15 @@ On the DPIA, Maria concluded that one is strongly recommended before launch, whi
 | External gaps the builder had not identified | The external audit applied a firmer production boundary, questioned whether optional images satisfy contractual necessity, treated exact V4 birth details as a minimisation issue because they do not drive the current output, and treated missing Article 28 evidence as blocking unless verified. |
 | Factual corrections to the external audit | Maria clarified her selected bases and DPIA position. Her audit expanded the hypothetical processing inventory but supplied no contradictory architecture facts. |
 
-### 6. Joint closing note — draft for agreement
+### 6. Joint closing note
 
 > We agreed that contract is the strongest candidate for the core service and that a DPIA should be completed before launch, while we differed on whether optional images are contractually necessary and whether Article 35 already makes the DPIA mandatory. The comparison showed that self-audits benefit from implementation context, while external audits make undocumented assumptions—especially around vendors, transfers, retention, and deletion—more visible; the hardest gaps to catch in one's own work are often controls that feel implicit but are not yet evidenced or testable.
 
-This is a two-sentence draft. Both participants must approve or revise it after the gap-list comparison.
+**Approved by Paola Hintze and Maria Cavali.**
 
-## Follow-up for Maria
+## External findings presented to Maria
 
-Send Maria these external findings for direct comparison:
+Paola presented these external findings for direct comparison:
 
 1. **Purpose-specific lawful bases and Article 9 controls — Blocking.** The core contract basis may be appropriate, but optional images, birth details, secondary use, and incidental sensitive data need their own necessity/basis analysis and controls.
 2. **DPIA before production — Blocking.** The external audit treats the combined risk indicators as sufficient to require an Article 35 DPIA before processing production personal data.
@@ -52,7 +52,19 @@ Send Maria these external findings for direct comparison:
 4. **International transfers — Significant.** Vendor regions and Chapter V mechanisms were not documented; DPF/adequacy or SCCs plus a transfer impact assessment must be verified as applicable.
 5. **Transparency, retention, deletion, and rights operations — Significant.** The brief did not evidence a complete AI privacy notice, retention schedule, deletion propagation, or tested data-subject-rights workflow.
 
-Maria's accept/challenge/already-addressed response to the external findings remains pending.
+### Builder response to the external findings
+
+Maria accepted all five findings, with two qualifications:
+
+| External finding | Maria's response |
+| --- | --- |
+| 1. Purpose-specific lawful bases and Article 9 controls | **Accepted.** Contract is strongest for the core service, while necessity for optional images and exact birth details still needs to be demonstrated. Article 9 data are not intentionally collected but may be revealed or inferred, so appropriate controls remain necessary. |
+| 2. DPIA before production | **Accepted as the operational condition.** Maria agrees that a DPIA should be completed before production, while retaining her self-audit qualification that strict legal necessity under Article 35 remains TBD pending further evidence and legal review. |
+| 3. Processor governance and DPAs | **Accepted.** This may partly be an evidence/documentation gap, but it must be resolved before production if compliant agreements are not already in place. |
+| 4. International transfers | **Accepted.** Vendor regions and applicable transfer mechanisms still need to be verified and documented. |
+| 5. Transparency, retention, deletion, and rights operations | **Accepted.** Some controls may exist technically, but they are not yet sufficiently documented or tested as compliance evidence. |
+
+Maria also confirmed that the joint note accurately reflects both the implementation knowledge available in a self-audit and the evidence gaps surfaced by an external reviewer.
 
 ## Peer review of Maria's recommendation memo
 
