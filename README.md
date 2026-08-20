@@ -3,7 +3,7 @@
 **Auditor:** Paola Hintze  
 **Teammate:** Maria Cavali (`mariacavali`)  
 **Project audited:** MIRA V4, with V3 shared-platform context  
-**Status:** Independent audit complete; debrief fields pending Maria's response
+**Status:** Independent audit complete; lawful-basis and DPIA comparison recorded; final gap response and joint-note approval pending
 
 This repository contains only the materials for the Module 7 GDPR peer-audit lab.
 
@@ -29,4 +29,4 @@ The audit conclusions were formed independently. Ambiguities were logged in writ
 
 ## Completion note
 
-The independent portion is complete. Before final submission, Paola and Maria must complete the marked debrief fields and approve the joint closing note; no builder response has been invented.
+The independent portion is complete. Maria's lawful-basis and DPIA positions have been recorded and compared. Before final submission, Maria must classify the five external findings as accepted, challenged, or already addressed, and both participants must approve the joint closing note.
