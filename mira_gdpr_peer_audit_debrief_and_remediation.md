@@ -42,9 +42,9 @@ On the DPIA, Maria concluded that one is strongly recommended before launch, whi
 
 This is a two-sentence draft. Both participants must approve or revise it after the gap-list comparison.
 
-## Follow-up sent to Maria
+## Follow-up for Maria
 
-Maria received these external findings for direct comparison:
+Send Maria these external findings for direct comparison:
 
 1. **Purpose-specific lawful bases and Article 9 controls — Blocking.** The core contract basis may be appropriate, but optional images, birth details, secondary use, and incidental sensitive data need their own necessity/basis analysis and controls.
 2. **DPIA before production — Blocking.** The external audit treats the combined risk indicators as sufficient to require an Article 35 DPIA before processing production personal data.
